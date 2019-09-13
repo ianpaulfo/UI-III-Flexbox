@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* CODE STARTS HERE */
+
+.services-top {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 6%;
+    padding-top: 20px;
+  }
+
+  a {
+      color: lightgrey;
+      text-decoration: none;
+}
+
+.service-second {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    margin-left: 5%;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.heading {
+    text-align: left;
+    font-size: 25px;
+    padding-top: 20px;
+    
+}
+
+.services-third {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-flow: row wrap;
+   
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 15px;
+    background-color: #f2f5f9;
+    width: 40%;
+    height: 60%;
+    padding: 15px;
+}
+
+p {
+    padding-bottom: 20px;
+
+}
+.button {
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid grey;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 125px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.services-last {
+    border-top: 2px solid black;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 5%;
+
+
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 4%;
+    line-height: 200%;
+  }
+  .closing {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding: 10%;
+    font-size: 14px;
+  }

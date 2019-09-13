@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+  	display: flex;
+  	justify-content: space-around;
+	align-items: stretch;
+	margin-left: 10%
+}
+
+a {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.top-row {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row;
+	align-items: stretch;
+	margin-left: 20%
+}
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+.top-inside {
+	border: 1px solid black;
+	padding: 3%;
+	color: grey;
+	text-align: center;
+	font-size: 18px;
+	margin: 15%;
+	margin-left: 10%;
+}
+
+.second-row {
+	display: flex;
+	justify-content: flex-end;
+	border-top: 1px solid black;
+	width: 100%;
+	text-align: left;
+	margin-left: 10%;
+}
+
+.second-inner {
+	text-align: left;
+	padding: 15px;
+	padding-bottom: 40px;
+}
+
+.middle {
+	margin-left: 20%
+}
+.middle-img {
+	
+}
+
+.third-row {
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 1px solid black;
+	width: 100%;
+	margin: 1%;
+	margin-left: 10%
+}
+
+.third-inner {
+	text-align: left;
+	padding: 15px;
+	padding-bottom: 40px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 16px;
+	margin: 1%;
+	margin-left: 10%
+}
+.closing {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10%;
+	margin-left: 10%
+
+}
